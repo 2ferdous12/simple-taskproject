@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    border: 2px solid slateblue;
+}
+
+.belong{
+    border: 2px solid slateblue;
+}
+
+@media screen and (max-width:576px){
+    .container{
+        flex-direction: column;
+    }
+}
